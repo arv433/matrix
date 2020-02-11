@@ -51,6 +51,10 @@ function Matrix (array) {
     }
     return depth
   }
+
+  this.multiply(secondFactor) {
+    return null
+  }
 }
 
 const d1 = new Matrix(d1matrix)
