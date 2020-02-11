@@ -58,4 +58,4 @@ const d2 = new Matrix(d2matrix)
 const d3 = new Matrix(d3matrix)
 const faulty = new Matrix(1)
 
-console.log(d3.iterativeDepth())
+console.log(d1.iterativeDepth())
