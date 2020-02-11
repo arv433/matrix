@@ -45,11 +45,11 @@ function Matrix (array) {
   }
 
   this.iterativeDepth = function () {
-    let firstCharIndex = 0
-    while (JSON.stringify(this.matrix).charAt(firstCharIndex) === '[') {
-      firstCharIndex++
+    let depth = 0
+    while (JSON.stringify(this.matrix).charAt(depth) === '[') {
+      depth++
     }
-    return firstCharIndex
+    return depth
   }
 }
 
